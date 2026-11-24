@@ -1,0 +1,12 @@
+{
+  "name": "blg-2026-dengshen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "登神之路：BLG 2026 竖屏 H5 电竞战术模拟原型",
+  "scripts": {
+    "test": "node tests/engine.test.js && node tests/stats.test.js",
+    "test:engine": "node tests/engine.test.js",
+    "test:stats": "node tests/stats.test.js",
+    "serve": "python -m http.server 4173"
+  }
+}
